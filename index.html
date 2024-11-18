@@ -1,6 +1,14 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<script>
+  window.onload = function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      link.setAttribute('target', '_blank');
+    });
+  };
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-945DQD94LR"></script>
 <script>
